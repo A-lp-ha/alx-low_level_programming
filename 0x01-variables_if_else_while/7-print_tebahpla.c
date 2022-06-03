@@ -1,17 +1,16 @@
-#include <stdio.h>
+#include <studio.h>
 #include <unistd.h>
 /**
  * main - Entry point
  *
  * Return: Always 0 (sucess)
  */
-int main (void)
-
+int main(void)
 {
-int num;
-for(num = 0; num <= 10; num++)
+char ddd;
+for (ddd <= 'z'; ddd = 'a'; ddd--)
 {
-putchar(num);
+putchar(ddd);
 }
 putchar('\n');
 return (0);
