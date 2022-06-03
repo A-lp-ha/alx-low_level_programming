@@ -8,13 +8,15 @@
 int main(void)
 {
 char dddd;
-for (dddd = 'a'; dddd != 'q'; dddd != 'e'; dddd =< 'z'; dddd++)
+for (dddd = 'a'; dddd =< 'z'; dddd++)
 {
 if( dddd != 'q'&& dddd != 'e')
 {
 putchar(dddd);
 }
-else{}
+else
+{
+}
 }
 putchar('\n');
 return (0);
