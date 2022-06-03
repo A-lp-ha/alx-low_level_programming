@@ -8,15 +8,15 @@
 int main(void)
 {
 int dddd;
-for (dddd = 'a'; dddd =< 'z'; dddd++)
+for (dddd = 'a'; dddd <= 'z'; dddd++)
 {
 putchar(dddd);
 }
-for (dddd = 'A'; dddd =< 'Z'; dddd++)
+for (dddd = 'A'; dddd <= 'Z'; dddd++)
 {
 putchar(dddd);
 }
 putchar('\n');
-return (0)
+return (0);
 }
 
