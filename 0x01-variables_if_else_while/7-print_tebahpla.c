@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 #include <unistd.h>
 /**
  * main - Entry point
@@ -8,7 +8,7 @@
 int main(void)
 {
 char ddd;
-for (ddd <= 'z'; ddd = 'a'; ddd--)
+for (ddd = 'z'; ddd >= 'a'; ddd--)
 {
 putchar(ddd);
 }
