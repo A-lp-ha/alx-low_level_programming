@@ -8,7 +8,7 @@
 *
 * return:always 0(success)
 */
-int main(int)
+int main(void)
 {
 int n;
 srand(time(0));
@@ -24,5 +24,5 @@ printf("%d is negative\n", n);
 }
 else if (n == 0)
 printf("%d is zero\n", n);
-return (0);
+return (1);
 }
