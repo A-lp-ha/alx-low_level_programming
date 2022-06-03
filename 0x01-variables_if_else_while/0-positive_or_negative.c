@@ -8,7 +8,7 @@
 *
 * return:always 0(success)
 */
-int main(void)
+int main(int)
 {
 int n;
 srand(time(0));
