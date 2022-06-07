@@ -9,11 +9,11 @@
  */
 int main(void)
 {
-char dot[8] = "_putchar";
-int l;
+char d[8] = "_putchar";
+int a;
 for  (a =0; a <8; a++)
 {
-_putchar(dot[a]);
+_putchar(d[a]);
 }
 _putchar('\n');
 return (0);
