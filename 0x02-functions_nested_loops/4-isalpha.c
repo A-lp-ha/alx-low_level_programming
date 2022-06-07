@@ -1,27 +1,18 @@
 #include <unistd.h>
 #include "main.h"
 /**
- * main - entry point
+ * _isalpha -entry point
+ * description:checks alphabet.
  *
  * Return: always 0.
  */
 int _isalpha(int c)
 {
-char h;
-for(h = 'a'; h <= 'z'; h++)
-{
-if(c == h)
+if(c >= 'a' && c<= 'z')
 {
 return(1);
 }
-else if
-{
-return(0);
-}
-}
-for(h = 'A'; h <= 'Z'; h++)
-{
-if (c == h)
+else if(c >= 'A' && c <= 'Z')
 {
 return(1);
 }
@@ -29,6 +20,4 @@ else
 {
 return(0);
 }
-}
-return (0);
 }
