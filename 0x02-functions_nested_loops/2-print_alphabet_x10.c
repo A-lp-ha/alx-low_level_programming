@@ -1,11 +1,11 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * main - check the code
+ * print_alphabet_x10 -print alphabet
  *
  * description: print 10x the alphabet
  *
- * Return: void
+ * Return: always 0.
  */
 void print_alphabet_x10(void)
 {
