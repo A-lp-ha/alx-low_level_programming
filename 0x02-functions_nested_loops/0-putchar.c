@@ -1,7 +1,7 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * main - check code 
+ * main - check code
  *
  * description: print _putchar followed by new line
  *
@@ -11,7 +11,7 @@ int main(void)
 {
 char d[8] = "_putchar";
 int a;
-for  (a =0; a <8; a++)
+for  (a = 0; a < 8; a++)
 {
 _putchar(d[a]);
 }
