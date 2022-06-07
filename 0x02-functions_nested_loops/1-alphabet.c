@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <unistd.h>
+#include "main.h"
 /**
  * main - check code
  *
@@ -15,9 +14,4 @@ dd++;
 }
 _putchar('\n');
 }
-int main(void)
-{
-char print_alphabet = 'll';
-printf("%s",'ll');
-return (0);
-}
+
