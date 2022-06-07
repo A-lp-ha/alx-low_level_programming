@@ -12,7 +12,7 @@ int l = 0;
 while(dot[l] != '\0')
 {
 char f = dot[l];
-putchar(f);
+_putchar(f);
 l++;
 }
 return (0);
