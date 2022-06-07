@@ -1,23 +1,22 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * main - check the code
+ * _is lower -entry point
+ *
+ * description: checks is a character is lowercase
  *
  * Return: Always 0.
  */
 int _islower(int c)
 {
-int y = 'a'
+int y = 'a';
 for(y = 'a'; y <= 'z'; y++)
 {
 if ( c == y)
 {
 return (1);
 }
-else if
-{
-return (0);
-}
 }
 return (0);
 }
+
