@@ -1,19 +1,20 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * main - Entry point
- * description: print _putchar
- * Return: Always 0 (success)
+ * main - check code 
+ *
+ * description: print _putchar followed by new line
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
-char dot[] = "_putchar\n";
-int l = 0;
-while (dot[l] != '\0')
+char dot[8] = "_putchar";
+int l;
+for  (a =0; a <8; a++)
 {
-char f = dot[l];
-_putchar(f);
-l++;
+_putchar(dot[a]);
 }
+_putchar('\n');
 return (0);
 }
