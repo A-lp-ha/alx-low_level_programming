@@ -11,6 +11,8 @@ int l = 0;
 while(dot[l] != '\0')
 {
 char f = dot[l];
-_putchar(l);
+putchar(f);
 l++;
+}
+return (0);
 }
