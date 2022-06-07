@@ -1,7 +1,7 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * _is lower -entry point
+ * _islower -entry point
  *
  * description: checks is a character is lowercase
  *
@@ -10,9 +10,9 @@
 int _islower(int c)
 {
 int y = 'a';
-for(y = 'a'; y <= 'z'; y++)
+for (y = 'a'; y <= 'z'; y++)
 {
-if ( c == y)
+if (c == y)
 {
 return (1);
 }
