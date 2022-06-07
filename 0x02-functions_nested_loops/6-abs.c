@@ -2,18 +2,23 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - entry point 
+ * _abs -entry point
+ * description: absolute values
  *
  * Return: always 0.
  */
 int _abs(int)
 {
-int x;
-int r = _abs x;
-for(x <= 0; x <= 10; x++)
+if (n > 0)
 {
-purchar('r');
+	return (n);
 }
-return (0);
+else if (n < 0)
+{
+	return (-n);
 }
-
+else
+{
+	return (n);
+}
+}

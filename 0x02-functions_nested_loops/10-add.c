@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include"main.h"
 /**
- * main -entry point
- *
+ * add -entry point
+ * description: return sum of two integers
  * Return: always 0.
  */
-int add(int, int)
+int add(int a, int b)
 {
 	int a;
 	int b;
 	int results = a + b;
-	return(sum)
+	return (results);
 }

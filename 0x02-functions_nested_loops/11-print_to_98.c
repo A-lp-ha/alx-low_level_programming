@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include "main.h"
+#include <unistd.h>
 /**
- * main - entry
- *
+ * print _to_98 - entry point
+ *description: prints all natural number
  * Return: always 0.
  */
 void print_to_98(int n)
@@ -15,7 +16,7 @@ printf("%d",n);
 n++;
 }
 }
-if(n>98)
+else if (n>98)
 {
 while(n>98)
 {

@@ -1,19 +1,19 @@
 #include <unistd.h>
 #include "main.h"
 /**
- * main - entry point
+ * print_last digit - printing lat digit
+ * description: print the last digit of a number.
  *
  * Return: always 0.
  */
-int print_last_digit(int)
+int print_last_digit(int n)
 {
 int digit= (x % 10);
 if (n>0)
 {
-putchar(last+'0');
-putchar('\n');
-n++;
+	last = last * -1;
 }
+_putchar(last+'0');
 return (0);
 }
 	
