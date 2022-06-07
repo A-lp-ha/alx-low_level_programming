@@ -3,6 +3,8 @@
 /**
  * main - check the code
  *
+ * description: print 10x the alphabet
+ *
  * Return: void
  */
 void print_alphabet_x10(void)
@@ -13,9 +15,9 @@ while(i <= 10)
 {
 for(dd = 'a'; dd <= 'z'; dd++)
 {
-putchar(dd);
+_putchar(dd);
 }
-putchar('\n');
+_putchar('\n');
 i++;
 }
 }
