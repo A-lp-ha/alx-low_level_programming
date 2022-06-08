@@ -2,7 +2,7 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * print_to_98 - prints all natural numbers to 98
+ * print_to_98: prints all natural numbers to 98
  * @n: integer input
  * description: prints all natural number
  * Return: always 0.
