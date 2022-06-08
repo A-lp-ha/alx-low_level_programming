@@ -3,6 +3,7 @@
 #include <stdio.h>
 /**
  * _abs -entry point
+ * @n: integer received
  * description: absolute values
  *
  * Return: always 0.

@@ -2,13 +2,13 @@
 #include "main.h"
 /**
  * _isalpha -entry point
+ * @c: the integer value it receives
  * description:checks alphabet.
  *
  * Return: always 0.
  */
 int _isalpha(int c)
 {
-	int c;
 if (c >= 'a' &&  c <= 'z')
 {
 return (1);

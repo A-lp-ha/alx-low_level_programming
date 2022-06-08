@@ -4,7 +4,7 @@
  * _islower -entry point
  *
  * description: checks is a character is lowercase
- *
+ * @c: the integer value it receives
  * Return: Always 0.
  */
 int _islower(int c)
