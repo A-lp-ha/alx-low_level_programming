@@ -1,6 +1,10 @@
 #include "main.h"
 #include <stdio.h>
-
+/**
+ * times_table - time table for 9.
+ *
+ * return: always 0.
+ */
 void times_table(void)
 {
 int r;
