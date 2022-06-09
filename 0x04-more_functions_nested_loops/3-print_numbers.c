@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - entry point
+ * print_numbers - entry point
  *
- * return: always 0.
+ * return: void
  */
-int main(void)
+void print_numbers(void)
 {
 	int a;
 

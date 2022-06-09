@@ -2,13 +2,13 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main - check code
+ * mul - check code
+ * @a: variable
+ * @b: variable
  *
- * return: always 0.
+ * return: a * b
  */
-int main(void)
+int mul(int a, int b)
 {
-	 printf("%d\n", mul(98, 1024));
-	  printf("%d\n", mul(-402, 4096));
-	  return (0);
+return (a * b);
 }
