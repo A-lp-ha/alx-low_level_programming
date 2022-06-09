@@ -4,7 +4,7 @@
 /**
  * print_numbers - entry point
  *
- * return: void
+ * return: always 1.
  */
 void print_numbers(void)
 {
@@ -16,5 +16,4 @@ void print_numbers(void)
 		a++;
 	}
 	_putchar('\n');
-	return (0);
 }
