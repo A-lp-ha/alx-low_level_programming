@@ -9,3 +9,6 @@ void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(int size);
 int _putchar(char c);
+typedef int make_iso_compilers_happy;
+extern int make_iso_compilers_happy;
+

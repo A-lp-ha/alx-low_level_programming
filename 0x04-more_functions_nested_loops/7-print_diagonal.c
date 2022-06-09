@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * print_diagonal - print diagonals
  * @n: variable
@@ -13,14 +12,14 @@ void print_diagonal(int n)
 
 	while (a < n && n > 0)
 	{
-		b + 0;
+		b = 0;
 		while (b < a)
 		{
 			_putchar(' ');
 			b++;
 }
 _putchar('\\');
-_putchar('\n')'
+_putchar('\n');
 a++;
 }
 if ( a == 0)
