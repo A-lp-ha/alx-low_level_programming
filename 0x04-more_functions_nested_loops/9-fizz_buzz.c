@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - fizz buzz
  *
@@ -24,11 +25,11 @@ int main(void)
 		}
 		else
 		{
-			printf("%a", a);
+			printf("%d", a);
 		}
 		if (a != 100)
 		{
-			putchar(' ')
+			putchar(' ');
 		}
 		a++;
 	}
