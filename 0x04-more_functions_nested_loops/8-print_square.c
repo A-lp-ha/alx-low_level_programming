@@ -18,5 +18,4 @@ while (a <= 10)
 	_putchar('\n');
 	a++;
 }
-return (void);
 }

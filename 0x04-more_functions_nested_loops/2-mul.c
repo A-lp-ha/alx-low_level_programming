@@ -6,9 +6,11 @@
  * @a: variable
  * @b: variable
  *
- * return: a * b
+ * return: always 1.
  */
 int mul(int a, int b)
 {
-return (a * b);
+	int sum;
+sum = (a * b);
+printf("%d", sum);
 }
