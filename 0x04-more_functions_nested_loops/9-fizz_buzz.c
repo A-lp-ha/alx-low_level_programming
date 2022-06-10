@@ -1,10 +1,12 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * main - fizz buzz
  *
  * return: always 0.
  */
+
 int main(void)
 {
 	int a = 1;
@@ -34,5 +36,4 @@ int main(void)
 		a++;
 	}
 	putchar('\n');
-	return (0);
 }
