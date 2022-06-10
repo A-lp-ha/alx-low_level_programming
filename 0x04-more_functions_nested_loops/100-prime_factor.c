@@ -15,9 +15,8 @@ int main(void)
 	{
 		if (num % q == 0)
 		{
-			printf("the prime factors of %ld are: %ld", num, q);
+			printf("the prime are: %ld\n", q);
 		}
-		printf("\n");
 	}
 	return (0);
 }
