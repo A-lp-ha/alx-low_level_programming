@@ -8,16 +8,16 @@
 
 int main(void)
 {
-	int num = 612852475143;
-	int q;
+	long int num = 612852475143;
+	long int q;
 
 	for (q = 1; q <= num; q++)
 	{
 		if (num % q == 0)
 		{
-			printf("the prime factors of %d are: %d", num , q);
+			printf("the prime factors of %ld are: %ld", num, q);
 		}
 		printf("\n");
 	}
-	return 0;
+	return (0);
 }
