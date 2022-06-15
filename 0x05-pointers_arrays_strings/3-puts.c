@@ -1,5 +1,6 @@
 #include "main.h"
-
+#include <stdio.h>
+#include <unistd.h>
 /**
  * main - entry point
  *
@@ -11,6 +12,6 @@ int main(void)
 	char *str;
 
 	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-	_puts(str);
-	return (0);
+	puts(str);
+	return (1);
 }

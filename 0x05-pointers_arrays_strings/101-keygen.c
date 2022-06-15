@@ -1,7 +1,8 @@
 #include "main.h"
 #include <unistd.h>
-#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
  * main - generation
@@ -12,9 +13,8 @@ int main(void)
 {
 	int sum;
 	char q;
-	int rand;
 
-	int srand = srand(time(NULL));
+	srand(time(NULL));
 	while (sum <= 2645)
 	{
 		q = rand() % 128;
