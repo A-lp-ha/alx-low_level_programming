@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unistd.h>
 #include <stdio.h>
 #include <time.h>
 
@@ -11,8 +12,9 @@ int main(void)
 {
 	int sum;
 	char q;
+	int rand;
 
-	srand(time(NULL));
+	int srand = srand(time(NULL));
 	while (sum <= 2645)
 	{
 		q = rand() % 128;
