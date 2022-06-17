@@ -42,8 +42,3 @@ char *rot13(char *str)
 	}
 	return (str);
 }
-
-int main(void)
-{
-	return (0);
-}
