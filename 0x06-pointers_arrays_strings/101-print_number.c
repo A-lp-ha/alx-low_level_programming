@@ -23,8 +23,3 @@ void print_number(int n)
 
 	putchar((num % 10) + '0');
 }
-
-int main (void)
-{
-	return (0);
-}

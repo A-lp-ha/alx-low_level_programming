@@ -21,14 +21,3 @@ char *string_toupper(char *str)
 	}
 	return (str);
 }
-
-/**
- * main - etntry point
- *
- * Return: always 0
- */
-
-int main(void)
-{
-	return (0);
-}

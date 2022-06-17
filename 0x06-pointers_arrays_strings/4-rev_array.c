@@ -18,14 +18,3 @@ void reverse_array(int *a, int n)
 		a[index] = tmp;
 	}
 }
-
-/**
- * main - entry point
- *
- * Return: always 0.
- */
-
-int main(void)
-{
-	return (0);
-}
